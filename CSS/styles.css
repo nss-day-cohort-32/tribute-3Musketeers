@@ -1,8 +1,8 @@
 body {
-    background-color: rgba(140, 138, 143, 0.479);
+    background-color: #384259;
     border-style: ridge;
     border-width: 15px;
-    border-color:#2c2c31;
+    border-color:#384259;
     /*margin top closes the gap between border and the artist name*/
     margin-top: 0px;
 }
@@ -11,7 +11,7 @@ body {
   h1 element covers the navbar
 */
 h1 {
-  color: red;
+  color: #f73859;
 }
 
 .artistname {
@@ -109,3 +109,39 @@ footer {
   opacity: 0.6;
   cursor: not-allowed;
 }
+img {
+  position: relative;
+  float: left;
+  width:  100%;
+  height: auto;
+  background-position: 50% 50%;
+  background-repeat:   no-repeat;
+  background-size:     cover;
+}
+.collabPics{
+  display: flex;
+  align-content: space-between;
+  flex
+}
+.published{
+  display: flex;
+  align-content: space-between;
+}
+.flexcontainer{
+  display: flex;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.flexcontainer div,
+.published div{
+  margin: .5rem;
+  width: auto;
+  height: auto;
+  flex: 0 0 25%;
+}
+.awards {
+  padding-bottom: .1rem; 
+}
+
+
