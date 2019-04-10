@@ -130,3 +130,47 @@ footer {
   opacity: 0.6;
   cursor: not-allowed;
 }
+.collabPics img {
+  position: relative;
+  float: left;
+  width:  80%;
+  height: auto;
+  background-position: 50% 50%;
+  background-repeat:   no-repeat;
+  background-size:     cover; 
+  
+}
+.published {
+  display: flex;
+  align-content: space-between;
+}
+.flexcontainer {
+  display: flex;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.flexcontainer div,
+.published div {
+  margin: .5rem;
+  width: auto;
+  height: auto;
+  display: 0 0 25%;
+}
+.published img {
+  position: relative;
+  float: left;
+  width:  100%;
+  height: auto;
+  background-position: 50% 50%;
+  background-repeat:   no-repeat;
+  background-size:     cover; 
+}
+.awards {
+  padding-bottom: .1rem; 
+}
+
+.tulips{
+  width: 80%;
+  height: auto;
+}
